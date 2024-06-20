@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header .container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    background: #0B132A;
+    background-color: transparent;
+}
+
+.header button:nth-child(1) {
+    border: none;
+}
+
+.up {
+    color: #F53855;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    background-color: transparent;
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.hero .container {
+    margin-top: 88.5px;
+    padding-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 685.44px;
+    box-shadow: 0px 43px 47px -71px rgba(0, 0, 0, 0.75);
+}
+
+.info {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.info h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.info-box:nth-child(1),
+.info-box:nth-child(2) {
+    border-right: 2px solid #EEEFF2;
+}
+
+.info-box {
+    width: 380px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36.5px;
+}
+
+.hero button,
+.subscribe button {
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #FFFFFF;
+    box-shadow: -1px 19px 39px -12px rgba(245, 56, 56, 1);
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+}
+
+.col-4 img {
+    width: 144.9px;
+    height: 165.37px;
+}
+
+.col-4 {
+    width: 33.33%;
+    display: flex;
+    height: 760px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.col-4:hover {
+    cursor: pointer;
+    border: 2px solid #F53838
+}
+
+.col-4 h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.col-4 h4 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.col-4:hover button {
+    background-color: #F53838;
+    color: #ffffff;
+    box-shadow: -1px 19px 39px -12px rgba(245, 56, 56, 1);
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 h4 span {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.pricing .row {
+    width: 1090px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 230px;
+}
+
+.features .container {
+    display: flex;
+    height: 641.73px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features h2,
+.pricing h2,
+.network h2,
+.testimonials h2,
+.subscribe h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.features p,
+.hero p,
+.pricing p,
+.network p,
+.testimonials .text,
+.subscribe p,
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.network h2,
+.testimonials h2 {
+    text-align: center;
+}
+
+.pricing p,
+.network p,
+.testimonials .text {
+    text-align: center;
+}
+
+.features .box {
+    width: 428px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+}
+
+.network img {
+    width: 1060px;
+    height: 537.77px;
+}
+
+.adv {
+    display: flex;
+    height: 208px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adv .spotify {
+    width: 171.28px;
+    height: 51.34px;
+}
+
+.adv .netflix,
+.adv .amazon,
+.adv .discord {
+    width: 190px;
+    height: 60px;
+}
+
+.adv .reddit {
+    width: 156.25px;
+    height: 50.62px;
+}
+
+.network .container {
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pricing .container {
+    height: 1080px;
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimonials .container {
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.user img {
+    width: 50px;
+}
+
+.name {
+    width: 130px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 350px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+}
+
+.comments {
+    display: flex;
+    gap: 50px;
+}
+
+.comment-box:hover {
+    border: 2px solid #F53838;
+    box-shadow: 0px 43px 67px -71px rgba(0, 0, 0, 0.75);
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow svg {
+    cursor: pointer;
+}
+
+.deg {
+    transform: rotate(180deg);
+    margin-left: 20px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    box-shadow: 0px -2px 77px -25px rgba(0, 0, 0, 0.75);
+}
+html{
+    scroll-behavior: smooth;
+}
+footer {
+    display: flex;
+    margin-top: 70px;
+    height: 563.12px;
+    background: #F8F8F8;
+    align-items: center;
+}
+
+.col-3 span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #AFB5C0;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
