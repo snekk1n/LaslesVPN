@@ -11,7 +11,6 @@ a {
 
 nav a {
     color: #4F5665;
-    font-family: Rubik;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.96px;
@@ -79,12 +78,11 @@ button {
     padding-bottom: 37px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 685.44px;
     box-shadow: 0px 43px 47px -71px rgba(0, 0, 0, 0.75);
 }
 
 .info {
+    margin-top: 30px;
     display: flex;
     justify-self: flex-end;
 }
@@ -133,16 +131,23 @@ button {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.row:nth-last-child(1){
     gap: 50px;
 }
-
 .col-4 img {
     width: 144.9px;
     height: 165.37px;
 }
-
+.lists{
+    width: max-content;
+}
 .col-4 {
-    width: 33.33%;
+    width: 30%;
     display: flex;
     height: 760px;
     justify-content: space-evenly;
@@ -150,6 +155,7 @@ button {
     align-items: center;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
+    padding-inline: 66.73px;
 }
 
 .col-4:hover {
@@ -179,27 +185,9 @@ button {
     width: 50%;
 }
 
-.col-4 h4 span {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-}
-
-.pricing .row {
-    width: 1090px;
-}
-
-.lists {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 230px;
-}
-
 .features .container {
     display: flex;
-    height: 641.73px;
+    margin-bottom: 30px;
     justify-content: space-between;
     align-items: center;
 }
@@ -220,34 +208,31 @@ button {
 .network p,
 .testimonials .text,
 .subscribe p,
-footer p {
+.footer p {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     color: #4F5665;
 }
-
 .network h2,
 .testimonials h2 {
     text-align: center;
 }
 
-.pricing p,
+.pricing .center,
 .network p,
 .testimonials .text {
     text-align: center;
 }
-
+.list {
+    display: flex;
+    gap: 10px;
+}
 .features .box {
     width: 428px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.list {
-    display: flex;
-    gap: 10px;
 }
 
 .network img {
@@ -257,7 +242,6 @@ footer p {
 
 .adv {
     display: flex;
-    height: 208px;
     align-items: center;
     justify-content: space-between;
 }
@@ -280,26 +264,25 @@ footer p {
 }
 
 .network .container {
-    height: 1117px;
     display: flex;
+    margin-top: 30px;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 60px;
 }
 
 .pricing .container {
-    height: 1080px;
     display: flex;
     background-color: #fafafa;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 50px;
     align-items: center;
 }
 
 .testimonials .container {
-    height: 590px;
     display: flex;
+    margin-top: 30px;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap:70px
 }
 
 .user img {
@@ -360,33 +343,33 @@ footer p {
 .subscribe {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 1140px;
+    gap: 150px;
+    justify-content: center;
     height: 233px;
     border-radius: 10px;
     box-shadow: 0px -2px 77px -25px rgba(0, 0, 0, 0.75);
 }
-html{
-    scroll-behavior: smooth;
-}
-footer {
-    display: flex;
+
+.footer .container{
     margin-top: 70px;
-    height: 563.12px;
-    background: #F8F8F8;
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column;
+    gap: 50px;
     align-items: center;
 }
-
 .col-3 span {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     color: #AFB5C0;
 }
-
 .col-3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 25%;
+}
+html{
+    scroll-behavior: smooth;
 }
